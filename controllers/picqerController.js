@@ -3,7 +3,7 @@ const { default: axios } = require("axios");
 const PDFMerger = require('pdf-merger-js');
 const PDFDocument = require('pdfkit');
 const Sevdesk = require('sevdesk');
-const sevdesk = new Sevdesk({ apiKey: '<API_KEY' });
+const sevdesk = new Sevdesk({ apiKey: '<API_KEY>' });
 const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
 
 // Use a lookup table to find the index.
