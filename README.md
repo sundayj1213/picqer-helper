@@ -24,7 +24,7 @@ Create a Custom Shipping Method and specify the following endpoints. Here's some
 #### Create Shipment label for DHL Parcel from Picklist Webhook
 
 ```http
-  POST /picqer/shipment/create/dhl_parcel
+POST /picqer/shipment/create/dhl_parcel
 ```
 
 #### Create Shipment label for DHL Express Domestic from Picklist Webhook
@@ -36,7 +36,7 @@ POST /picqer/shipment/create/dhl_express_domestic
 #### Create Shipment label for DHL Express World Wide from Picklist Webhook
 
 ```http
- POST /picqer/shipment/create/dhl_express_worldwide
+POST /picqer/shipment/create/dhl_express_worldwide
 ```
 
 #### Create Shipment label for DHL Express Economy from Picklist Webhook
@@ -53,9 +53,9 @@ POST /picqer/invoice/sevdesk/get
 ## Deploying to Heroku
 
 ```
-$ heroku create
-$ git push heroku main
-$ heroku open
+heroku create
+git push heroku main
+heroku open
 ```
 or
 
