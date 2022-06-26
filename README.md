@@ -9,10 +9,10 @@ This application supports the [Getting Started on Heroku with Node.js](https://d
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
 
 ```sh
-$ git clone https://github.com/heroku/node-js-getting-started.git # or clone your own fork
-$ cd node-js-getting-started
-$ npm install
-$ npm start
+git clone https://github.com/heroku/node-js-getting-started.git # or clone your own fork
+cd node-js-getting-started
+npm install
+npm start
 ```
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
@@ -30,25 +30,25 @@ Create a Custom Shipping Method and specify the following endpoints. Here's some
 #### Create Shipment label for DHL Express Domestic from Picklist Webhook
 
 ```http
-  POST /picqer/shipment/create/dhl_express_domestic
+POST /picqer/shipment/create/dhl_express_domestic
 ```
 
 #### Create Shipment label for DHL Express World Wide from Picklist Webhook
 
 ```http
-  POST /picqer/shipment/create/dhl_express_worldwide
+ POST /picqer/shipment/create/dhl_express_worldwide
 ```
 
 #### Create Shipment label for DHL Express Economy from Picklist Webhook
 
 ```http
-  POST /picqer/shipment/create/dhl_express_economy
+POST /picqer/shipment/create/dhl_express_economy
 ```
 
 #### Get SevDesk Invoice from Picklist Order ID
 
 ```http
-  POST /picqer/invoice/sevdesk/get
+POST /picqer/invoice/sevdesk/get
 ```
 ## Deploying to Heroku
 
